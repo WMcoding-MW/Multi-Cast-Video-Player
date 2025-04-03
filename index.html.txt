@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Highlights Hub</title>
+  <!-- TODO: Add favicon.ico to root directory -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+	<h1>Sports Highlights Hub</h1>
+	<div class="search-controls">
+  	<select id="leagueSelect">
+    	<option value="">Select League</option>
+    	<option value="nba">NBA</option>
+    	<option value="nfl">NFL</option>
+    	<option value="mlb">MLB</option>
+    	<option value="nhl">NHL</option>
+    	<option value="ufc">UFC</option>
+  	</select>
+
+  	<input type="text" id="teamSearch" placeholder="Enter team or keywords (e.g. 'buzzer beater')">
+  	<button id="searchBtn">Search Highlights</button>
+	</div>
+  </header>
+
+  <main>
+	<!-- Sidebar and video grid will be injected here -->
+	<div id="videoGrid" class="grid-container"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
