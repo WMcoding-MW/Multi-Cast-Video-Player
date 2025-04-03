@@ -31,7 +31,7 @@ A valid YouTube Data API key.
 Steps
 
 # Clone this repository
-git clone https://github.com/your-username/sports-highlights-hub.git
+git clone https://github.com/WMcoding-MW/Sports-Highlights-Hub.git
 cd sports-highlights-hub
 
 # Open script.js and replace API_KEY with your own YouTube Data API key
