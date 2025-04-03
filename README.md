@@ -1,16 +1,16 @@
-Sports Highlights Hub
+# Sports Highlights Hub
 
 
 
-📌 Overview
+# 📌 Overview
 
 Sports Highlights Hub is a web application that allows users to search for recent sports highlights from YouTube. Users can select a league and enter team names or keywords to find relevant highlight videos.
 
-🚀 Features
+# 🚀 Features
 
 ✅ Search for sports highlights based on league and team/keywords.✅ Fetches the most viewed YouTube videos from the last month.✅ Displays results in an embedded video grid.✅ Sidebar with toggleable video titles.
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 HTML
 
@@ -20,7 +20,7 @@ JavaScript
 
 YouTube Data API v3
 
-🔧 Installation
+# 🔧 Installation
 
 Prerequisites
 
@@ -28,7 +28,7 @@ A modern web browser (Chrome, Firefox, Edge, etc.).
 
 A valid YouTube Data API key.
 
-Steps
+## Steps
 
 # Clone this repository
 git clone https://github.com/WMcoding-MW/Sports-Highlights-Hub.git
@@ -40,7 +40,7 @@ Running the App
 
 Simply open index.html in your preferred browser.
 
-📖 Usage
+# 📖 Usage
 
 Select a league from the dropdown.
 
@@ -50,29 +50,32 @@ Click the Search Highlights button.
 
 View the embedded highlight videos.
 
-📁 File Structure
+# 📁 File Structure
 
 /sports-highlights-hub
 │── index.html       # Main HTML file
+
 │── style.css        # Styling for the web app
+
 │── script.js        # JavaScript logic for fetching and displaying videos
+
 │── README.md        # Documentation
 
-🔑 API Key Configuration
+# 🔑 API Key Configuration
 
 Replace the placeholder API key in script.js:
 
 const API_KEY = "YOUR_YOUTUBE_DATA_API_KEY";
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
 
-📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
 
-📬 Contact
+# 📬 Contact
 
 For questions or feedback, open an issue on GitHub Issues.
 
