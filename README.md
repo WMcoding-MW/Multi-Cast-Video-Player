@@ -1,81 +1,106 @@
 # Sports Highlights Hub
 
+## Overview
 
+**Sports Highlights Hub** is a web application designed to help users discover recent sports highlights from YouTube.  
+By selecting a league and entering team names or relevant keywords, users can effortlessly find and watch the latest highlight videos.
 
-# 📌 Overview
+## Features
 
-Sports Highlights Hub is a web application that allows users to search for recent sports highlights from YouTube. Users can select a league and enter team names or keywords to find relevant highlight videos.
+- **Intuitive Search**: Easily search for sports highlights by selecting a league and specifying team names or keywords.
+- **Recent Content**: Retrieves the most viewed YouTube videos from the past month to ensure up-to-date content.
+- **Embedded Video Grid**: Displays search results in an organized, embedded video grid for seamless viewing.
+- **Sidebar with Video Titles**: Features a toggleable sidebar that lists video titles for quick navigation.
 
-# 🚀 Features
+## Technologies Used
 
-✅ Search for sports highlights based on league and team/keywords.✅ Fetches the most viewed YouTube videos from the last month.✅ Displays results in an embedded video grid.✅ Sidebar with toggleable video titles.
+The project leverages the following technologies:
 
-# 🛠 Technologies Used
+- **Frontend**:
+  - React: A JavaScript library for building user interfaces.
+  - Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- **Backend**:
+  - Node.js with Express: A web application framework for handling server-side logic.
+- **API Integration**:
+  - YouTube Data API v3: Fetches video data based on user search queries.
 
-HTML
+## Prerequisites
 
-CSS
+Before setting up the project, ensure you have the following installed:
 
-JavaScript
+- [Node.js](https://nodejs.org/): JavaScript runtime environment.
+- [npm](https://www.npmjs.com/): Node package manager (comes with Node.js).
+- [Git](https://git-scm.com/): Version control system.
 
-YouTube Data API v3
+Additionally, you'll need:
 
-# 🔧 Installation
+- **YouTube Data API Key**: Obtain an API key by creating a project in the [Google Cloud Console](https://console.cloud.google.com/).
+- Navigate to the Project Directory:
 
-Prerequisites
+bash
+Copy
+Edit
+cd Sports-Highlights-Hub
+Install Dependencies:
 
-A modern web browser (Chrome, Firefox, Edge, etc.).
+bash
+Copy
+Edit
+npm install
+Set Up Environment Variables:
 
-A valid YouTube Data API key.
+Create a .env file in the root directory.
 
-## Steps
+Add your YouTube Data API key:
 
-# Clone this repository
-git clone https://github.com/WMcoding-MW/Sports-Highlights-Hub.git
-cd sports-highlights-hub
+env
+Copy
+Edit
+REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+Usage
+To start the development server:
 
-# Open script.js and replace API_KEY with your own YouTube Data API key
+bash
+Copy
+Edit
+npm start
+The application will run at http://localhost:3000/.
 
-Running the App
+Contributing
+Contributions are welcome! To contribute:
 
-Simply open index.html in your preferred browser.
+Fork the Repository: Click on the 'Fork' button at the top right of the repository page.
 
-# 📖 Usage
+Clone Your Fork:
 
-Select a league from the dropdown.
+bash
+Copy
+Edit
+git clone https://github.com/your-username/Sports-Highlights-Hub.git
+Create a New Branch:
 
-Enter a team name or keywords in the search box.
+bash
+Copy
+Edit
+git checkout -b feature/your-feature-name
+Make Your Changes: Implement your feature or fix the identified bug.
 
-Click the Search Highlights button.
+Commit Your Changes:
 
-View the embedded highlight videos.
+bash
+Copy
+Edit
+git commit -m "Description of your changes"
+Push to Your Fork:
 
-# 📁 File Structure
+bash
+Copy
+Edit
+git push origin feature/your-feature-name
+Submit a Pull Request: Navigate to the original repository and click on 'New Pull Request'.
 
-/sports-highlights-hub
-│── index.html       # Main HTML file
-
-│── style.css        # Styling for the web app
-
-│── script.js        # JavaScript logic for fetching and displaying videos
-
-│── README.md        # Documentation
-
-# 🔑 API Key Configuration
-
-Replace the placeholder API key in script.js:
-
-const API_KEY = "YOUR_YOUTUBE_DATA_API_KEY";
-
-# 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
-
-# 📜 License
-
+License
 This project is licensed under the MIT License.
 
-# 📬 Contact
-
-For questions or feedback, open an issue on GitHub Issues.
-
+Acknowledgments
+Special thanks to the developers and the open-source community for their invaluable resources and tools.
